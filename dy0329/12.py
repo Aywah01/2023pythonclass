@@ -13,4 +13,5 @@ print(pSum)
 
 for i in range(quizNo):
     s, e = map(int, input().split())
-    print(pSum[e] - pSum[s-1])
+    print(pSum[e] - pSum[s-1])# so kalau input (2,4) -> so dia akan jadi 4 - 1 = n
+
